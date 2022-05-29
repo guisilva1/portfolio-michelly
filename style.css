@@ -153,3 +153,55 @@ footer h1 {
 footer p {
   font-size: 1.2em;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.75em;
+  }
+
+  .nav-buttons a {
+    font-size: 0.75em;
+  }
+
+  .foto-perfil {
+    width: 200px;
+    height: 200px;
+  }
+
+  .foto-perfil:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+  .content-sobre {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infos {
+    width: 100%;
+    align-items: center;
+  }
+
+  .trabalhos {
+    margin-top: 6%;
+  }
+
+  .infos p {
+    text-align: center;
+  }
+
+  #titulo {
+    text-align: center;
+  }
+
+  .fotos-trabalhos img {
+    max-width: 300px;
+    max-width: 300px;
+    margin-bottom: 5%;
+  }
+}
